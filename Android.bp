@@ -1,0 +1,97 @@
+// Auto-generated prebuilt Blueprint for external/perfmark
+// Extracted from Extractive APEX package: org.blisslabs.ag.ext.perfmark
+
+package {
+    default_visibility: ["//visibility:public"],
+    default_applicable_licenses: ["external_perfmark_license"],
+}
+
+license {
+    name: "external_perfmark_license",
+    visibility: [":__subpackages__"],
+    license_kinds: [
+        "SPDX-license-identifier-Apache-2.0",
+    ],
+    license_text: [
+        "LICENSE",
+        "NOTICE",
+    ],
+}
+
+java_import {
+    name: "perfmark-api-lib",
+    jars: ["share/perfmark/perfmark-api-0.26.0.jar"],
+    host_supported: true,
+    prefer: true,
+    sdk_version: "current",
+    min_sdk_version: "30",
+    apex_available: [
+        "//apex_available:anyapex",
+        "//apex_available:platform",
+    ],
+}
+
+java_import {
+    name: "perfmark",
+    jars: ["share/perfmark/perfmark-api-0.26.0.jar"],
+    host_supported: true,
+    prefer: true,
+    sdk_version: "current",
+    min_sdk_version: "30",
+    apex_available: [
+        "//apex_available:anyapex",
+        "//apex_available:platform",
+    ],
+}
+
+java_import {
+    name: "perfmark-tag",
+    jars: ["share/perfmark/perfmark-api-0.26.0.jar"],
+    host_supported: true,
+    prefer: true,
+    sdk_version: "current",
+    min_sdk_version: "30",
+    apex_available: [
+        "//apex_available:anyapex",
+        "//apex_available:platform",
+    ],
+}
+
+java_import {
+    name: "perfmark-link",
+    jars: ["share/perfmark/perfmark-api-0.26.0.jar"],
+    host_supported: true,
+    prefer: true,
+    sdk_version: "current",
+    min_sdk_version: "30",
+    apex_available: [
+        "//apex_available:anyapex",
+        "//apex_available:platform",
+    ],
+}
+
+java_import {
+    name: "perfmark-stringfunction",
+    jars: ["share/perfmark/perfmark-api-0.26.0.jar"],
+    host_supported: true,
+    prefer: true,
+    sdk_version: "current",
+    min_sdk_version: "30",
+    apex_available: [
+        "//apex_available:anyapex",
+        "//apex_available:platform",
+    ],
+}
+
+java_import {
+    name: "perfmark-impl",
+    jars: ["share/perfmark/perfmark-api-0.26.0.jar"],
+    host_supported: true,
+    prefer: true,
+    sdk_version: "current",
+    min_sdk_version: "30",
+    apex_available: [
+        "//apex_available:anyapex",
+        "//apex_available:platform",
+    ],
+}

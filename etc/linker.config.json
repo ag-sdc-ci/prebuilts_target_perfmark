@@ -1,0 +1,9 @@
+{
+	"provideLibs": [	
+		    "libdummy_ext_perfmark-x86_64-v2.so",
+		    "libdummy_ext_perfmark.so",
+		    "libdummy_shared_perfmark-x86_64-v2.so",
+		    "libdummy_shared_perfmark.so"
+	],
+	"visible": true
+}
